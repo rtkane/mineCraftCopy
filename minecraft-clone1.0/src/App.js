@@ -10,7 +10,7 @@ function App() {
   return (
     <>
         <Canvas>
-        <Sky sunPosition={100} />
+        <Sky sunPosition={[100,0,10]} />
         <ambientLight  intensity={.5}/>
         <FPV/>
         <Physics>

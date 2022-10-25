@@ -12,7 +12,7 @@ export const useStore = create((set) => ({
         {
             key:nanoid(),
             pos: [1,0.5,0],
-            texture: 'wood'
+            texture: 'log'
         },
 
     ],
